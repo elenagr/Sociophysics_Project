@@ -1,0 +1,18 @@
+
+This repository contains the code for simulating 
+"Phase change in an opinion-dynamics model with separation of time scales"
+described in PHYSICAL REVIEW E 83, 016111 (2011)
+Authors: Gerardo In ̃igue1 Ja ́nos Kerte 1,2 Kimmo K. Kai,1 and R. A. Bar
+
+To run it just type:
+
+./opinion 
+
+Options:
+-N: number of agents in the ring (default 10)
+-T: number of interchange processes (default 10)
+-g: number of Euler steps applied (default 10)
+-m: neighbours considered (default 1)
+-t: dt parameter (default 0.0001)
+-f: disables the interchange process (it doesn't take any input) 
+
